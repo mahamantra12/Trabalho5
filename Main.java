@@ -11,7 +11,7 @@ public class Main{
         if(aluno1.passou() == true){
             System.out.println("Passou");
         }else{
-            System.out.println("NÃ£o passou");
+            System.out.println("Não passou");
         }
         
     }

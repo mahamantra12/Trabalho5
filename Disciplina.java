@@ -30,7 +30,7 @@ public void imprimenomes(int i){
         if(i==0){ // primeiro aluno do vetor
             this.turma[i].imprimenome();
             this.turma[i+1].imprimenome();
-        }if(i==9){  // ultimo aluno do vetor
+        }else if(i==9){  // ultimo aluno do vetor
             this.turma[i-1].imprimenome();
             this.turma[i].imprimenome();
         }else{  // outros casos que tem os treis possiveis casos de numero anterior e posterior
